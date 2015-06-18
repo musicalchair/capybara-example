@@ -1,6 +1,6 @@
 dependencies:
- pre:
-   - sudo apt-get update; sudo apt-get install exiv2 libexiv2-dev
+  pre:
+    - sudo apt-get update; sudo apt-get install exiv2 libexiv2-dev
     - curl -L -o google-chrome-stable.deb https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
     - sudo dpkg -i google-chrome-stable.deb
     - sudo sed -i 's|HERE/chrome\"|HERE/chrome\" --disable-setuid-sandbox|g' /opt/google/chrome/google-chrome
