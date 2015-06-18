@@ -8,7 +8,7 @@ disable :run
 Sinatra::Application.environment = :test
 Sinatra::Application.root = File.dirname(__FILE__) + "/.."
 Capybara.app = Sinatra::Application
-Capybara.default_driver = :selenium
+Capybara.default_driver = :poltergeist
 Capybara.default_selector = :css
 Capybara.javascript_driver = :poltergeist
 # load the actual app.
