@@ -1,6 +1,5 @@
 $(function () {
   console.log("here");
-  console.log(thisvariablebeingundefinedcausesthebuildtofail);
   console.log(Float64Array);
   $("body")
     .append("<div class='time-button'>Get the current time.</div>")
